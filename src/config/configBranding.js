@@ -21,10 +21,14 @@ export const marketplaceColor = '#7c3aed';
 // Therefore, we strongly suggest that your image file for desktop logo is in landscape!
 //
 // If you need to fine-tune the logo, the component is defined in src/components/Logo/Logo.js
-// By default logo gets 27 pixels vertical space, but it could be wider (e.g. 180px)
+// By default logo gets 24 pixels vertical space, but it could be wider (e.g. 180px)
 // The default images are meant for retina displays and are therefore twice as big in actual dimensions
 export const logoImageDesktopURL = logoImageDesktop;
 export const logoImageMobileURL = logoImageMobile;
+
+// The _logoType_ tells how much vertical space the app should reserve for logo from Topbar.
+// There could be more modes in the future if we start supporting other options than photos as logo format.
+export const logoType = 'scaled24h'; // options: 'scaled24h', 'scaled36h', 'scaled48h'
 
 // brandImageURL is used as a background image on the "hero" section of several pages.
 // Used on AuthenticationPage, EmailVerificationPage, PasswordRecoveryPage, PasswordResetPage etc.
