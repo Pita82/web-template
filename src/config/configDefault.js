@@ -88,7 +88,7 @@ const defaultConfig = {
     // TODO: Map provider configuration and analytics service should come from the assets too.
     //       It might take some time before these are actually available through hosted assets.
     // maps: '/integrations/map.json',
-    // analytics: '/integrations/analytics.json',
+    analytics: '/integrations/analytics.json',
     // googleSearchConsole: '/integrations/google-search-console.json',
     // localization: '/general/localization.json',
   },
